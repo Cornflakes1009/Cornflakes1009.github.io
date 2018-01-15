@@ -35,8 +35,10 @@ li {
     /* navigation bar */
     width: 60px;
     list-style-type: none;
-    padding: 40px;
+    padding: 0px 40px 0px 40px;
     float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .border-right {
     border-right: 1px solid darkgray;  
