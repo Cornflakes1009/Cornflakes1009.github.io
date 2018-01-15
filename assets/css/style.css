@@ -29,6 +29,8 @@ h2 {
 #profile-pic {
     width: 240px;
     height: 320px;
+    float: left;
+    
     
 }
 li {
@@ -43,8 +45,10 @@ li {
 .border-right {
     border-right: 1px solid darkgray;  
 }
-#bio {
-    float: right;
+.bio {
+    float: left;
+    
+    
 }
 .connection {
     float: right;
