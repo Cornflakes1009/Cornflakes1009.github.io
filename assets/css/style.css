@@ -5,10 +5,19 @@ body {
 header {
     background-color: white;
     width: 100%;
+    margin-left: 0;
+    height: 100px;
 }
-h1 {
-    padding: 40px;
-    background-color: #4aaaa5;
+#name {
+    
+    background-color: #4aaaa5; 
+    text-align: center;
+    padding: 10px;
+    float: left;
+    color: white;
+    
+    
+  
 }
 .content-area {
     width: 960px;
@@ -31,4 +40,5 @@ li {
 }
 .border-right {
     border-right: 2px;
+    border-color: darkgray;
 }
