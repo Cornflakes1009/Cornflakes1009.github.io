@@ -4,12 +4,16 @@ body {
 header {
     background-color: white;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     height: 100px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
+.page-width {
+    width: 960px;
+}
 .name {
     margin-left: 200px;
+    margin-right: 240px;
     font-size: 20px;
     background-color: #4aaaa5; 
     text-align: center;
@@ -70,6 +74,7 @@ li {
     color: #4aaaa5;
     font-size: 20px;
     text-align: center;
+    margin-right: 450px;
 }
 .footer-green-bar {
     width: 110%;
@@ -87,4 +92,7 @@ li {
 }
 .horizontal-divider-line {
     margin: 0px 29px 0px 29px;
+}
+.nav-bar-float {
+    float: left;
 }
