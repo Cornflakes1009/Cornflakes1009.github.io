@@ -1,14 +1,15 @@
 body {
-    margin-left: 200px;
+    
     background-image: url("../images/concrete_seamless.png")
 }
 header {
     background-color: white;
     width: 100%;
-    margin-left: 0;
+    margin-bottom: 20px;
     height: 100px;
 }
-#name {
+.name {
+    margin-left: 200px;
     font-size: 20px;
     background-color: #4aaaa5; 
     text-align: center;
@@ -16,13 +17,16 @@ header {
     float: left;
     color: white;
 }
-.content-area {
-    width: 960px;
+.entire-content-area {
+    margin-left: 200px;
 }
 .main-content-area {
     width: 650px;
     background-color: white; 
+    display: inline-block;
+    margin-bottom: 50px;
 }
+
 h2 {
     color: #4aaaa5;
 }
@@ -30,7 +34,9 @@ h2 {
     width: 240px;
     height: 320px;
     float: left;
-    
+    clear: left;
+    padding-right: 20px;
+    padding-bottom: 8px;
     
 }
 li {
@@ -43,13 +49,29 @@ li {
     margin-bottom: 40px;
 }
 .border-right {
-    border-right: 1px solid darkgray;  
+    border-right: 1px solid #666666; 
 }
+
 .bio {
-    float: left;
-    
+    padding: 30px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     
 }
 .connection {
     float: right;
+    width: 270px;
+}
+.footer-green-bar {
+    width: 110%;
+    height: 10px;
+    background-color: #4aaaa5;
+    
+}
+.footer-copyright-gray-bar {
+ padding: 30px;
+ background-color: #666666;
+ width: 100%;
+ margin-bottom: 0%;
+ text-align: center;
+ color: white;
 }
