@@ -92,7 +92,21 @@ li {
 }
 .horizontal-divider-line {
     margin: 0px 29px 0px 29px;
+    height: 2px;
+    background-color: #666666;
+    opacity: 0.5;
 }
 .nav-bar-float {
     float: left;
+    font-size: 20px;
+    height: 100px;
+}
+.short-horizontal-diver-line {
+    height: 2px;
+    background-color: #666666;
+    opacity: 0.25;
+    margin: 0px 20px 20px 20px;
+}
+.connection-images {
+   
 }
