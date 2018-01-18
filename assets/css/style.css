@@ -1,26 +1,22 @@
 body {
-    background-image: url("../images/concrete_seamless.png")
+    background-image: url("../images/concrete_seamless.png");
+    margin: auto;
 }
 header {
     background-color: white;
     width: 100%;
-    margin-bottom: 40px;
+    margin: auto;
     height: 100px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 .header-content {
     width: 960px;
-    margin-left: 200px;
-    backgrou
+    margin: auto;
 }
 .page-width {
     width: 960px;
 }
-.move-right {
-    margin-left: 200px;
-}
-.name {
-    
+.name {  
     margin-right: 0px;
     font-size: 40px;
     background-color: #4aaaa5; 
@@ -30,7 +26,7 @@ header {
     color: #ffffff;
 }
 .entire-content-area {
-    margin-left: 200px;
+    margin: auto;
     width: 960px;
 }
 .main-content-area {
@@ -38,8 +34,8 @@ header {
     background-color: #ffffff; 
     display: inline-block;
     margin-bottom: 50px;
+    margin-top: 35px;
 }
-
 .about-me {
     color: #4aaaa5;
     margin-left: 29px;
@@ -92,13 +88,11 @@ li {
     color: #4aaaa5;
     font-size: 20px;
     text-align: center;
-    margin-left: 40px;
 }
 .footer-green-bar {
     width: 100%;
     height: 10px;
-    background-color: #4aaaa5;
-    
+    background-color: #4aaaa5; 
 }
 .footer-copyright-gray-bar {
  padding: 30px 0px 30px 0px;
