@@ -2,6 +2,10 @@ body {
     background-image: url("../images/concrete_seamless.png");
     margin: auto;
 }
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 header {
     background-color: white;
     width: 100%;
