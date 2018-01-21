@@ -218,5 +218,19 @@ footer {
 
 /* Contact Form */
 .form-area {
+    margin: 0 auto 40px;
+    display: block;
+    padding: 20px 30px;
+    color: #777777;
+}
+.input-fields {
     width: 100%;
+    margin: 20px 0;
+    line-height: 2;
+}
+.submit-button {
+    padding: 10px 30px;
+    background-color:  #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
 }
