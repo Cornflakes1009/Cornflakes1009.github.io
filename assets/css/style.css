@@ -114,7 +114,12 @@ header {
     opacity: 0.25;
     margin: 20px 20px 20px 20px;
 }
-
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
@@ -144,15 +149,21 @@ header {
 /*  Portfolio-Specific Syle */
 
 .portfolio-images {
-    height: 150px;
-    width: 300px;
+    margin: 0 auto 30px 0;
+    left: -9999px;
+    right: -9999px;
+    overflow: hidden;
+    height: 100%;
 }
 .portfolio {
-    margin: 30px 20px 30px 20px;
+    margin: 30px;
 }
-.hangman {
+.skills {
     position: relative;
-   
+    display: inline-block;
+    height: 130px;
+    text-align: center;
+    margin: 0 16px;
 }
 .hangman-text {
     position: absolute;
@@ -160,7 +171,52 @@ header {
     text-align: center;
     left: 0px;
     color: white;
-    background-color: green;
-    padding: 10px 119px;
-    
+    background-color: #4aaaa5;
+    padding: 10px 91px;
+    font-size: 20px;
+}
+.rpg-game-text {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 84px;
+    font-size: 20px;
+}
+.trivia-game-text {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 79.5px;
+    font-size: 20px;
+}
+.rutgers-info-widget-text {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 48px;
+    font-size: 20px;
+}
+.led-tv-text {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 94.5px;
+    font-size: 20px;
+}
+
+/* Contact Form */
+.form-area {
+    width: 100%;
 }
